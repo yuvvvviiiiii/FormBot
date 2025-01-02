@@ -1,0 +1,161 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(24, 24, 27, 1);
+  font-family: 'open sans', sans-serif;
+  border: 1px solid rgba(24, 24, 27, 1);
+  height: 60px;
+  padding: 20px;
+  position: relative;
+}
+
+.navBarDark{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-family: 'open sans', sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  height: 60px;
+  padding: 20px;
+}
+
+.username{
+  height: 40px;
+  min-width: 330px;
+  text-align: center;
+  border: 1px solid rgba(33, 33, 33, 0.16);
+  border-radius: 8px;
+  position: absolute;
+  left: 40%;
+}
+
+.username select{
+  width: 100%;
+  border: none;
+  height: 100%;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 10px;
+  text-align: center;
+}
+
+.username select option{
+  width: 100%;
+  border: none;
+  height: 100%;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 10px;
+}
+
+.usernameDark{
+  height: 40px;
+  min-width: 330px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  position: absolute;
+  left: 40%;
+}
+
+.usernameDark select{
+  width: 100%;
+  border: none;
+  height: 100%;
+  background: rgba(24, 24, 27, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.usernameDark select option{
+  width: 100%;
+  border: none;
+  height: 100%;
+  background: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 10px;
+}
+.logout{
+  color: rgba(255, 165, 76, 1);
+}
+
+
+
+.theme{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+  position: absolute;
+  right: 20%;
+}
+
+.theme span{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.modeCircle{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.modeToggle{
+  width: 50px;
+  height: 25px;
+  background-color: rgba(26, 95, 255, 1);
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+.modeToggleDark{
+  width: 50px;
+  height: 25px;
+  background-color: rgba(26, 95, 255, 1);
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.modeToggleDark .modeCircle{
+  transform: translateX(25px);
+}
+
+.shareBtn{
+  padding: 10px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: rgba(26, 95, 255, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  right: 60px;
+}
+
+

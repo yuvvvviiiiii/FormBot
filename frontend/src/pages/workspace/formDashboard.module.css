@@ -1,0 +1,285 @@
+.formDashboard{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 999;
+}
+
+.formDashboardDark{
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(18, 18, 18, 1), rgba(24, 24, 27, 1));
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 999;
+}
+
+.folders{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.createFolderDark{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 180px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.92);
+  border-radius: 8px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.createFolder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 180px;
+  background-color: rgba(214, 214, 214, 1);
+  border-radius: 8px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.createFolder p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  margin-left: 10px;
+}
+.createFolderDark p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  margin-left: 10px;
+}
+
+.folderIcon{
+  height: 16px;
+  width: 16px;
+}
+
+.files{
+  display: flex;
+  width: 100%;
+}
+
+.createFile{
+  height: 270px;
+  width: 225px;
+  background-color: rgba(26, 95, 255, 1);
+  border-radius: 6px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.plusIcon{
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.createFile p{
+  font-size: 18px;
+  line-height: 21px;
+  position: absolute;
+  bottom: 35%;
+  left: 20%;
+}
+
+.modal{
+  height: 230px;
+  width: 370px;
+  border-radius: 24px;
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  padding: 20px;
+  top: 22%;
+  left: 18.5%;
+  z-index: 9999;
+  background-color: rgba(24, 24, 27, 1);
+}
+
+.modalHeader{
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+  margin-bottom: 15px;
+  color: rgba(214, 214, 214, 1);
+}
+
+.modalInput{
+  width: 100%;
+  height: 70px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(31, 31, 35, 1);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(161, 161, 161, 0.31);
+  margin-bottom: 15px;
+}
+
+.modalBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.modalDeleteBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 10%;
+}
+
+.submitBtn{
+  border: none;
+  background: none;
+  color: rgba(75, 131, 255, 1);
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.starightLine{
+  border: 1px solid rgba(71, 71, 74, 1);
+  width: 50px;
+  rotate: -90deg;
+  margin-top: 10px;
+}
+
+.cancelBtn{
+  border: none;
+  background: none;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+  color: rgba(161, 161, 161, 0.71);
+}
+
+.shareModal{
+  width: 750px;
+  height: 450px;
+  border-radius: 24px;
+  background-color: rgba(24, 24, 27, 1);
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 25%;
+  left: 125px;
+  padding: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.closeBtn{
+  text-align: right;
+  color: rgba(245, 80, 80, 1);
+  margin-bottom: 10px;
+}
+
+.closeIcon{
+  height: 18px;
+  width: 18px;
+}
+
+.shareHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  margin-bottom: 20px;
+  height: 60px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.shareHeader p{
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.shareHeader select{
+  background: none;
+  color: rgba(214, 214, 214, 1);
+  border: none;
+  cursor: pointer;
+  width: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 41px;
+}
+
+.shareHeader select option{
+  background: rgba(24, 24, 27, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.modalEmail{
+  width: 90%;
+  height: 70px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(31, 31, 35, 1);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(161, 161, 161, 0.31);
+  margin-bottom: 15px;
+  margin-left: 5%;
+}
+
+.sendInvite{
+  width: 90%;
+  height: 41px;
+  margin-left: 5%;
+  margin-top: 10px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(26, 95, 255, 1);
+  box-shadow: 0 10px 4px 0 (rgba(233, 68, 75, 0.25));
+}
+
+.copyLink{
+  width: 90%;
+  margin-left: 5%;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.copyLink p{
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.copyLink button{
+  width: 100%;
+  height: 41px;
+  border-radius: 12px;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(26, 95, 255, 1);
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 10px 4px (rgba(233, 68, 75, 0.25));
+}

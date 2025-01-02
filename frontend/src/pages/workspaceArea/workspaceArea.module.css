@@ -1,0 +1,380 @@
+.container{
+  height: fit-content;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 999;
+}
+
+.containerDark{
+  height: fit-content;
+  width: 100vw;
+  background: linear-gradient(rgba(18, 18, 18, 1), rgba(24, 24, 27, 1));
+  color: rgba(255, 255, 255, 1);
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  z-index: 999;
+}
+
+.content{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.contentDark{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.left{
+  width: 350px;
+  height: 100vw;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+              0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 15px;
+  position: relative;
+}
+
+
+.leftDark{
+  width: 350px;
+  height: 100vw;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04),
+              0px 20px 25px -5px rgba(0, 0, 0, 0.1);
+  background-color: rgba(24, 24, 27, 1);
+  padding: 15px;
+  position: relative;
+}
+
+.options{
+  height: 70%;
+  width: 90%;
+  position: absolute;
+  top: 60px;
+}
+
+.bubbles{
+  width: 100%;
+  padding: 10px;
+}
+
+.header{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.bubbleOption{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bubble{
+  display: flex;
+  width: 135px;
+  height: 39px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(214, 214, 214, 1);
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.bubbleDark{
+  display: flex;
+  width: 135px;
+  height: 39px;
+  border-radius: 8px;
+  background-color: rgba(31, 31, 35, 1);
+  border: 1px solid rgba(39, 39, 42, 1);
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.icon{
+  height: 19px;
+  width: 19px;
+  color: rgba(75, 131, 255, 1);
+  margin-left: 10px;
+}
+
+.iconGif{
+  height: 40px;
+  width: 40px;
+  color: rgba(75, 131, 255, 1);
+}
+
+.bubble p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.bubbleDark p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.inputOption{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.inputs{
+  width: 100%;
+  padding: 10px;
+}
+
+.input{
+  display: flex;
+  width: 135px;
+  height: 39px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(214, 214, 214, 1);
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.inputDark{
+  display: flex;
+  width: 135px;
+  height: 39px;
+  border-radius: 8px;
+  background-color: rgba(31, 31, 35, 1);
+  border: 1px solid rgba(39, 39, 42, 1);
+  align-items: center;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+
+.inputicon{
+  height: 19px;
+  width: 19px;
+  color: rgba(255, 165, 76, 1);
+  margin-left: 10px;
+}
+
+.input p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.inputDark p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.right{
+  width: 60%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.rightDark{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.start{
+  height: 60px;
+  width: 310px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(214, 214, 214, 1);
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 8%;
+}
+
+
+.flagIcon{
+  height: 20px;
+  width: 20px;
+  color: rgba(26, 95, 255, 1);
+}
+
+.start p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-left: 10px;
+}
+
+.startDark{
+  height: 60px;
+  width: 310px;
+  border-radius: 16px;
+  background-color: rgba(24, 24, 27, 1);
+  padding: 10px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 8%;
+}
+
+.startDark p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-left: 10px;
+}
+
+.bubblesText{
+  width: 310px;
+  height: 129px;
+  margin-top: 25px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(214, 214, 214, 1);
+  border-radius: 8px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+.bubblesTextDark{
+  width: 310px;
+  height: 129px;
+  margin-top: 25px;
+  background-color: rgba(24, 24, 27, 1);
+  border-radius: 8px;
+  padding: 10px 15px;
+  position: relative;
+}
+
+
+.textHeader{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 15px;
+}
+.textHeaderDark{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 15px;
+}
+
+.textInput{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.formInput{
+  width: 100%;
+  height: 100%;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  color: rgba(132, 132, 132, 0.33);
+  border-radius: 5px;
+  border: 1px solid rgba(214, 214, 214, 1);
+}
+.formInputDark{
+  width: 100%;
+  height: 100%;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  color: rgba(132, 132, 132, 0.33);
+  border-radius: 5px;
+  background-color: rgba(31, 31, 35, 1);
+  border: none;
+}
+
+.formInput::placeholder{
+  color: rgba(132, 132, 132, 0.33);
+  font-size: 15px;
+  font-weight: 600;
+}
+.formInputDark::placeholder{
+  color: rgba(132, 132, 132, 0.33);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.bubbleIcon{
+  position: absolute;
+  left: 10px;
+  height: 20px;
+  width: 20px;
+  color: rgba(26, 95, 255, 1);
+}
+
+.deleteIcon{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  color: rgba(255, 44, 98, 1);
+  height: 20px;
+  width: 20px;
+}
+
+.hint{
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-top: 15px;
+  color: rgba(85, 85, 85, 1);
+}
+
+.formbtn{
+  width: 100%;
+  height: 45px;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  color: rgba(132, 132, 132, 0.33);
+  border-radius: 5px;
+  border: 1px solid rgba(214, 214, 214, 1);
+}
+.formbtnDark{
+  width: 100%;
+  height: 45px;
+  padding: 10px 40px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+  color: rgba(132, 132, 132, 0.33);
+  border-radius: 5px;
+  background-color: rgba(31, 31, 35, 1);
+  border: none;
+}

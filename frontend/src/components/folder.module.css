@@ -1,0 +1,117 @@
+.folder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  min-width: 150px;
+  background-color: rgba(214, 214, 214, 1);
+  border-radius: 8px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.folderDark{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 37px;
+  min-width: 150px;
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.folder p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.folderDark p{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.deleteIcon{
+  color: rgba(245, 80, 80, 1);
+  position: absolute;
+  right: 10px;
+  height: 17px;
+  width: 17px;
+}
+
+.modal{
+  height: 230px;
+  width: 370px;
+  border-radius: 24px;
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  padding: 20px;
+  top: 22%;
+  left: 18%;
+  z-index: 99999;
+  background-color: rgba(24, 24, 27, 1);
+}
+
+.modalHeader{
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+  margin-bottom: 15px;
+  color: rgba(214, 214, 214, 1);
+}
+
+.modalInput{
+  width: 100%;
+  height: 70px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(31, 31, 35, 1);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(161, 161, 161, 0.31);
+  margin-bottom: 15px;
+}
+
+.modalBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.modalDeleteBtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-top: 10%;
+}
+
+.submitBtn{
+  border: none;
+  background: none;
+  color: rgba(75, 131, 255, 1);
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.starightLine{
+  border: 1px solid rgba(71, 71, 74, 1);
+  width: 50px;
+  rotate: -90deg;
+  margin-top: 10px;
+}
+
+.cancelBtn{
+  border: none;
+  background: none;
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 41px;
+  color: rgba(161, 161, 161, 0.71);
+}
