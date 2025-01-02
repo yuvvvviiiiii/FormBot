@@ -16,7 +16,12 @@ const MONGO_URL = process.env.MONGO_URL;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors());
+app.use(cors({
+  origin: ["https://form-bot-blue.vercel.app/"],
+  // origin: ["http://localhost:5173"],
+  methods: ["POST", "GET", "PUT","PATCH", "DELETE"],
+  credentials: true
+}));
 app.use(morgan('tiny'));
 
 app.use('/api/user', userRouter, folderRouter, fileRouter, indexRouter, formResponseRouter);
