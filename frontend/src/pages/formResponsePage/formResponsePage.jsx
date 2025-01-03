@@ -19,9 +19,10 @@ const FormResponsePage = () => {
       const response = await getFormResponses(id)
       setData(response);
       toast.success(response.message)
-      console.log(response)
     } catch (error) {
       toast.error(error.message)
+    } finally{
+      setLoading(false)
     }
   }
 
@@ -37,9 +38,11 @@ const FormResponsePage = () => {
   }
 
   const completedPercentage = (data.submitted/data.views) * 100;
-  console.log(completedPercentage, data.submitted);
   const remainingPercentage = 100 - completedPercentage;
 
+  if(loading){
+    return <div>Loading...</div>
+  }
 
 
   return (

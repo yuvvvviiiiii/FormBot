@@ -123,4 +123,48 @@ td{
 
 .chart{
   display: flex;
+  position: relative;
+  width: 80%;
+}
+
+.completed{
+  position: absolute;
+  right: 30%;
+  top: 10%;
+  text-align: center;
+}
+
+.completed span{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.completed p{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.completion{
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  height: 150px;
+  width: 200px;
+  border-radius: 16px;
+  background-color: rgba(50, 50, 50, 1);
+  padding: 15px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.completion p{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+.completion span{
+  font-size: 29px;
+  font-weight: 400;
 }
