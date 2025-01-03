@@ -58,7 +58,6 @@ const FormPage = () => {
       const response = await submitFormData(id, singleResponse);
       if(response){
       toast.success(`Response for "${key}" submitted successfully!`);
-      console.log(response)
       }
     } catch (error) {
       toast.error(`Failed to submit "${key}": ${error.message}`);
@@ -70,7 +69,6 @@ const FormPage = () => {
       const response = await submitFormData(id, formResponses);
       if(response){
         toast.success(response.message);
-        console.log(response);
       }
     } catch (error) {
       toast.error(error.message);
